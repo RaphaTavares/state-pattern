@@ -6,7 +6,7 @@ public class Pedido {
     private PedidoEstado estado;
 
     public Pedido() {
-        this.estado = PedidoEstadoEnviado.getInstance();
+        this.estado = PedidoEstadoRealizado.getInstance();
     }
 
     public String getLanche() {
